@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Registration form</title>
+<script src="validation.js"></script>
+</head>
+<body>
+<form action="#" method ="get"></form>
+<table align="center" cellpadding="5px" cellspacing="8px">
+    <tr>
+        <td>Enter Title</td>
+        <td><input type ="text" name="title" id="titleid"><br>
+        </td>
+        <td><label id="titlemsg"></label></td>
+    </tr>
+    <tr>
+        <td>Enter Author name</td>
+        <td><input type ="text" name="author" id="authorid"><br>
+        </td>
+        <td><label id="authormsg"></label></td>
+    </tr>
+    <tr>
+        <td>price</td>
+        <td><input type ="text" name="price" id="priceid"><br>
+        </td>
+        <td><label id="pricemsg"></label></td>
+    </tr>
+    
+    <tr>
+        <td>Published Date</td>
+        <td><input type ="date" name="date" id="dateid"><br>
+        </td>
+        <td><label id="datemsg"></label></td>
+    </tr>
+    <tr>
+        <td>No.of Copies</td>
+        <td><input type ="text" name="copies" id="copiesid"><br>
+        </td>
+        <td><label id="copiesmsg"></label></td>
+    </tr>
+    <tr>
+        <td><input type ="submit" value="submit" onclick="return validate()"></td>
+    </tr>
+</table>
+
+</form>
+</body>
+</html>
